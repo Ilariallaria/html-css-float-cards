@@ -1,0 +1,29 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: lightyellow;
+}
+
+h1{
+    color: #e53170;
+    text-align: center;
+    margin-bottom: 30px;
+}
