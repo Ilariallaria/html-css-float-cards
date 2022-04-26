@@ -21,17 +21,10 @@ header{
     clear: both;
 }
 
-.card img{
-    width: 70px;
-    float: left;
-
-}
-
 .container {
     width: 70%;
     margin: auto;
     margin-top: 20px;
-    background-color: lightgreen;
 }
 
 h1{
@@ -40,16 +33,13 @@ h1{
     margin-bottom: 30px;
 }
 
+header p{
+    text-align: center;
+}
+
 .col{
     float: left;
     width: calc(100% / 3);
-}
-
-.content{
-    float: right;
-    width: calc(100% - 70px);
-    padding: 10px 10px;
-
 }
 
 .card{
@@ -59,12 +49,28 @@ h1{
 
 }
 
-.content div span{
-    font-weight: 100;
-    font-size: 12px;
-    padding: 10px 0;
+.card img{
+    width: 70px;
+    float: left;
+
 }
 
-/* .content span{
+.content{
+    float: right;
+    width: calc(100% - 70px);
+    padding: 5px 10px;
 
-} */
+}
+
+.content div{
+    font-weight: 100;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.content span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #88afde;
+    margin-top: 0 0;
+}
